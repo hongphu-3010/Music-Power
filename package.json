@@ -1,0 +1,14 @@
+{
+  "name": "my_music_scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "author": "hongphu",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

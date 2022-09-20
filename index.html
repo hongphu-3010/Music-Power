@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="bar_mobile">
+        <i class="icon-bar_mobile icon-bar_open fa-light fa-bars"></i>
+        <i class="icon-bar_mobile icon-bar_times fa-thin fa-circle-xmark"></i>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <i class="sidebar-icon bx bxl-deezer"></i>
+          <h2 class="sidebar_name">Mucsic Power</h2>
+        </div>
+        <div class="sidebar-middle">
+          <div class="sidebar_recoment">
+            <p class="sidebar_recoment-tittle">Recomend</p>
+            <ul class="sidebar_recoment-items">
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-regular fa-record-vinyl"></i>
+                <h3 class="recoment-item-text">For you</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-regular fa-list-music"></i>
+                <h3 class="recoment-item-text">Library</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-regular fa-radio-tuner"></i>
+                <h3 class="recoment-item-text">Radio Station</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-light fa-circle-play"></i>
+                <h3 class="recoment-item-text">Music Video</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar_recoment">
+            <p class="sidebar_recoment-tittle">My music</p>
+            <ul class="sidebar_recoment-items">
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-light fa-heart"></i>
+                <h3 class="recoment-item-text">Liked Songs</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-light fa-album-collection"></i>
+                <h3 class="recoment-item-text">Albums</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-light fa-microphone-stand"></i>
+                <h3 class="recoment-item-text">Artists</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-light fa-clock"></i>
+                <h3 class="recoment-item-text">Resent</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar_recoment">
+            <p class="sidebar_recoment-tittle">Recomend</p>
+            <ul class="sidebar_recoment-items">
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-thin fa-music-note"></i>
+                <h3 class="recoment-item-text">Hip Hop</h3>
+              </li>
+              <li class="sidebar_recoment-item">
+                <i class="sidebar_icon-middle fa-thin fa-music-note"></i>
+                <h3 class="recoment-item-text">Jazz</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <ul class="sidebar_bot">
+          <li class="sidebar_bot-item">
+            <i
+              class="sidebar_icon-middle fa-light fa-rectangle-history-circle-plus"
+            ></i>
+            <h3 class="sidebar_bot-text">New Playlist</h3>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="content-top">
+          <form action="" class="content-top_search">
+            <i class="contnet_search-icon fa-light fa-magnifying-glass"></i>
+            <input
+              class="content_search-input"
+              type="text"
+              placeholder="Search"
+            />
+          </form>
+          <div class="content-top-user">
+            <img
+              class="content-top-user_img"
+              src="https://i.pinimg.com/564x/08/4c/ef/084cef9d005f671d2213e165e309a2cd.jpg"
+              alt=""
+            />
+            <p class="content-top-user_name">Hello, Hong Phu</p>
+          </div>
+        </div>
+        <div class="content-middle">
+          <div class="content-middle-info">
+            <h3 class="content-middle-title">Releases for You</h3>
+            <div
+              class="content-middle-img"
+              style="
+                background-image: url('https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg');
+              "
+            ></div>
+          </div>
+          <div class="content-middle-list">
+            <div class="content_item-song-wrap">
+              <!-- <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number hidden">1</p>
+                  <img
+                    class="content_song-play"
+                    src="./assets/imgsLink/output-onlinegiftools.gif"
+                    alt=""
+                  />
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <i class="content_heart-liked fa-duotone fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div>
+              <div class="content_item-song">
+                <div class="content_list-left">
+                  <p class="content_list-number">1</p>
+                  <i class="content_heart fa-thin fa-heart"></i>
+                  <div class="content_infor-song">
+                    <h3 class="content_name-song">King and queen</h3>
+                    <p class="content_author-song">people</p>
+                  </div>
+                </div>
+                <div class="content_list-right">
+                  <i class="fa-light fa-ellipsis"></i>
+                  <p class="content_time-song">3:20</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="content-bot">
+          <h3 class="content_bot-name-singer">Singer's songs</h3>
+          <div class="content-bot-slide">
+            <!-- <div class="swiper mySwiper">
+              <div class="swiper-wrapper"> -->
+            <!-- <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        class="bg-song_singer"
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                      <li class="play_music-singer">
+                        <i
+                          class="fa-light fa-circle-pause icon-pause icon-play_singer"
+                        ></i>
+                        <i
+                          class="fa-light fa-circle-play icon-play icon-play_singer"
+                        ></i>
+                        <img
+                          class="content_song-play_singer"
+                          src="./assets/imgsLink/output-onlinegiftools.gif"
+                          alt=""
+                        />
+                      </li>
+                    </div>
+
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        class="bg-song_singer"
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                      <li class="play_music-singer">
+                        <i
+                          class="fa-light fa-circle-pause icon-pause icon-play_singer"
+                        ></i>
+                        <i
+                          class="fa-light fa-circle-play icon-play icon-play_singer"
+                        ></i>
+                        <img
+                          class="content_song-play_singer"
+                          src="./assets/imgsLink/output-onlinegiftools.gif"
+                          alt=""
+                        />
+                      </li>
+                    </div>
+
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div> -->
+            <!-- <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide_content">
+                    <div class="swiper-slide_img">
+                      <img
+                        src="https://i.pinimg.com/564x/4d/56/e9/4d56e937903f41b219f78ef9aab1ba84.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <h3 class="name_song-singer">
+                      n ssbngsdfgh hgsohd ahsgodi ihasvo gv
+                    </h3>
+                  </div>
+                </div> -->
+            <!-- </div>
+              <div class="swiper-pagination"></div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="sidebar_right">
+        <div class="sidebar_right-top">
+          <h3 class="sidebar_right-top-title">Singers</h3>
+          <ul class="sidebar-right-top_singers">
+            <!-- <li class="sidebar-right-top_singer" data-name="avicii">
+              <div class="sidebar-top_singer-info">
+                <img
+                  src="https://i.pinimg.com/564x/e9/43/26/e943267c1710b1a6e1ef17d31e34675e.jpg"
+                  alt=""
+                />
+                <p class="name-singer">name</p>
+              </div>
+            </li>
+            <li class="sidebar-right-top_singer" data-name="singer2">
+              <div class="sidebar-top_singer-info">
+                <img
+                  src="https://i.pinimg.com/564x/0d/fb/c6/0dfbc635c23950b13c3d80dccff0194d.jpg"
+                  alt=""
+                />
+                <p class="name-singer">name</p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+        <div class="side_right-bot">
+          <h3 class="sidebar_right-bot-title">Your Activity</h3>
+          <ul class="sidebar-right-bot_singers">
+            <li class="sidebar-right-bot_singer">
+              <div class="sidebar-bot_singer-info">
+                <img
+                  class="imghi"
+                  src="https://i.pinimg.com/564x/c2/bd/56/c2bd5656e337625a075315c2ed08fd54.jpg"
+                  alt=""
+                />
+                <p class="name-singer">Blackbear</p>
+              </div>
+            </li>
+            <li class="sidebar-right-bot_singer">
+              <div class="sidebar-bot_singer-info">
+                <img
+                  class="imghi"
+                  src="https://i.pinimg.com/564x/80/b3/9f/80b39f32ed03eb7658426f5503b400a2.jpg"
+                  alt=""
+                />
+                <p class="name-singer">Deep End</p>
+              </div>
+            </li>
+            <li class="sidebar-right-bot_singer">
+              <div class="sidebar-bot_singer-info">
+                <img
+                  class="imghi"
+                  src="https://i.pinimg.com/564x/ed/8a/f5/ed8af5e32abd7a7b49ca5a58bf762514.jpg"
+                  alt=""
+                />
+                <p class="name-singer">Gimme Love</p>
+              </div>
+            </li>
+            <li class="sidebar-right-bot_singer">
+              <div class="sidebar-bot_singer-info">
+                <img
+                  class="imghi"
+                  src="https://i.pinimg.com/564x/6c/bb/67/6cbb676bd577497a89e13e41af14dfe7.jpg"
+                  alt=""
+                />
+                <p class="name-singer">Oliver Tree</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="control_music">
+        <div class="control_music-wrap">
+          <div class="control_bar-time">
+            <div class="range_sidebar">
+              <input
+                class="control_bar-time_range"
+                type="range"
+                orient="vertical"
+                value="0"
+                step="0.01"
+                min="0"
+                max="100"
+              />
+            </div>
+          </div>
+          <div class="control_current-song">
+            <div class="control_infor-cur">
+              <img
+                src="https://i.pinimg.com/564x/e5/b3/25/e5b3257ec5775a970651b481c0ff55f1.jpg"
+                alt=""
+                class="control_infor-img"
+              />
+              <div class="control_infor-name">
+                <h3>King and queen</h3>
+                <p>people</p>
+              </div>
+            </div>
+          </div>
+          <div class="control_next-pre">
+            <ul class="control_net-pre_wrap">
+              <li class="random">
+                <i class="fa-thin fa-shuffle icon-random"></i>
+              </li>
+              <li class="preview">
+                <i class="fa-thin fa-backward icon-preview"></i>
+              </li>
+              <li class="play_music">
+                <i class="fa-thin fa-circle-pause icon-pause"></i>
+                <i class="fa-thin fa-circle-play icon-play"></i>
+              </li>
+              <li class="next"><i class="fa-thin fa-forward icon-next"></i></li>
+              <li class="repeat">
+                <i class="fa-thin fa-arrows-repeat icon-repeat"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="control_volum">
+            <ul class="control_volum-wrap">
+              <li class="btn-control-volume">
+                <i class="btn-vol fa-thin fa-volume"> </i>
+                <i class="btn-vol_mute fa-thin fa-volume-xmark"></i>
+              </li>
+
+              <li>
+                <input
+                  class="volume__range"
+                  type="range"
+                  orient="vertical"
+                  value="1"
+                  step="0.01"
+                  min="0"
+                  max="1"
+                  style="outline: none; border: none"
+                />
+              </li>
+              <li><i class="btn-vol fa-thin fa-heart"></i></li>
+              <li><i class="btn-vol fa-thin fa-circle-ellipsis"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="audio" src="#"></audio>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+</html>
