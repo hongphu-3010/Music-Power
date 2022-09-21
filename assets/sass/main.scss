@@ -269,6 +269,9 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  @include mb() {
+    font-size: 1.3rem;
+  }
 }
 .content-top-user_img {
   width: 30px;
