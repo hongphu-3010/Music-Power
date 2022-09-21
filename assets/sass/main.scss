@@ -337,6 +337,7 @@
   margin-left: 3rem;
   background-color: #f1eff3;
   border-radius: 10px;
+  -webkit-tap-highlight-color: transparent;
   @include md() {
     margin-left: 0;
   }
