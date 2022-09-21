@@ -770,10 +770,14 @@ const app = {
       sideBarRight.style.left = "0";
       $(".icon-bar_open").style.display = "none";
       $(".icon-bar_times").style.display = "inline-block";
+      $("body").style.overflow = "hidden";
+      playList.style.overflow = "hidden";
     } else {
       sideBarRight.style.left = "-100%";
       $(".icon-bar_open").style.display = "inline-block";
       $(".icon-bar_times").style.display = "none";
+      $("body").style.overflow = "unset";
+      playList.style.overflow = "auto";
     }
   },
   reSize() {

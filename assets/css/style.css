@@ -320,6 +320,9 @@ body::-webkit-scrollbar-thumb:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+  @media screen and (max-width: 739px) {
+    .content-top-user_name {
+      font-size: 1.2rem; } }
 
 .content-middle-title {
   font-size: 2rem;
@@ -363,7 +366,8 @@ body::-webkit-scrollbar-thumb:hover {
   overflow: auto;
   margin-left: 3rem;
   background-color: #f1eff3;
-  border-radius: 10px; }
+  border-radius: 10px;
+  -webkit-tap-highlight-color: transparent; }
   @media (max-width: 1023px) {
     .content_item-song-wrap {
       margin-left: 0; } }
