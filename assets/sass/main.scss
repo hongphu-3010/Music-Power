@@ -379,7 +379,7 @@
   display: none;
 }
 .content_list-left.liked .content_heart-liked {
-  display: inline-block;
+  display: flex;
   color: #9471b8;
 }
 
@@ -400,6 +400,9 @@
   justify-content: center;
 }
 
+.content_heart-liked {
+  justify-content: center;
+}
 .content_name-song {
   font-weight: 500;
   font-size: 1.6rem;

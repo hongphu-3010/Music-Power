@@ -406,7 +406,7 @@ body::-webkit-scrollbar-thumb:hover {
   display: none; }
 
 .content_list-left.liked .content_heart-liked {
-  display: inline-block;
+  display: flex;
   color: #9471b8; }
 
 .content_list-left.liked .content_heart {
@@ -422,6 +422,9 @@ body::-webkit-scrollbar-thumb:hover {
   color: #b4b4be;
   width: 22px;
   display: flex;
+  justify-content: center; }
+
+.content_heart-liked {
   justify-content: center; }
 
 .content_name-song {
